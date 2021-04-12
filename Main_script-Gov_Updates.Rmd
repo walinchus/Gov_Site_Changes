@@ -1,0 +1,19 @@
+---
+title: "Auto Updates to government websites"
+author: "Lucia Walinchus"
+date: "4/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+get_yesterday <- function(){
+  return(Sys.Date() - 3)
+}
+```
+
